@@ -1,0 +1,42 @@
+.header{
+	background: blue;
+	height:55px;
+}
+.container-fixed-width{
+	margin:0 auto;
+	background:red;
+	width:95%;
+}
+.clearfix{
+	zoom:1;
+}
+.navbar-fixed-top{
+    top: 0;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    border-radius: 0;
+}
+.top-nav-link {
+    float: right;
+    margin-right: -35px;
+}
+.top-nav-link a {
+	margin:7px 5px;
+	background-color:red;
+    float: right;
+    height: 40px;
+    line-height:40px;
+    width: 100px;
+    color: #fff;
+    border-radius:10px;
+    
+}
+.top-nav-link span {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
