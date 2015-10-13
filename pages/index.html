@@ -1,50 +1,116 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="renderer" content="webkit">
-    <!-- 确保移动设备的适配 -->  
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 禁用缩放 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>index by Saylele</title>
-    <!-- <link href="../css/bootstrap.css" rel="stylesheet"> -->
-    <link rel="shortcut icon" href="../images/ico/favicon.ico" />
-    <link href="../css/reset.css" rel="stylesheet">
-    <link href="../css/index-fin.css" rel="stylesheet">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Saylele</title>
+	<link href="../css/index.css" rel="stylesheet">
+
 </head>
 <body>
-    <div class="home">
-        <div class="header navbar-fixed-top">
-            <div class="container-fixed-width clearfix">
-            	<div class="top-nav-link">
-                    <a href="#"><span>Log In</span></a>
-                    <a href="#"><span>Sign Up</span></a>
-                    <!-- <a href=""></a> -->
-                </div>
-            </div>
-        </div>
-        <div class="main">
-            <div class="sll-intro"></div>
-            <div class="sll-featureRow">
-                <div class="sll-row-left"></div>
-                <div class="sll-row-middle"></div>
-                <div class="sll-row-right"></div>
-            </div>
-            <div class="sll-story">
-                <div class="sll-story-left"></div>
-                <div class="sll-story-middle"></div>
-                <div class="sll-story-right"></div>
-            </div>
-            <div class="sll-bottomDivider">
-                <div class="sll-divider-left"></div>
-                <div class="sll-divider-middle"></div>
-                <div class="sll-divider-right"></div>
-            </div>
-        </div>
-        <div class="footer"></div>
-    </div>
+	<!-- 顶部导航栏 -->
+	<div role="navigation" class="zu-top">
+		<!-- 自动布局 -->
+		<div class="zg-wrap modal-shifting clearfix">
+			<!-- logo -->
+			<a href="/" class="zu-top-link-logo" id="zh-top-link-logo">
+			</a>
+			<!-- 搜索栏 -->
+			<div role="search" id="zh-top-search" class="zu-top-search">
+				<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
 
+				<label for="q" class="hide-text">乐易说搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" placeholder="Search in Saylele" aria-haspopup="true">
+				<input type="hidden" name="type" value="question">
+				<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+				</form>
+			</div>
+			<div class="zu-top-nav">
+				<a href="#" class="trial-link nav-icon " data-sourcename="free for trial">
+					<span class="glyph icon free-for-trial-icon">建</span>			
+					<span class="label">Free for trial</span>
+				</a>
+			</div>
+			<div class="zu-top-sign">
+				<div class="zu-top-nav-link">
+                    <a href="#"><span class="zu-top-nav-link-google" >Google Sign In</span></a>
+                    <a href="#"><span>Sign Up</span></a>
+                    <a href="#"><span>Log In</span></a>
+                </div>
+			</div>	
+
+
+		</div>
+		
+	</div>
+	<!-- 内容 -->
+	<div role="main" class="zg-wrap zu-main">
+			<div class="zu-main-content">
+				<div class="zu-main-content-image"></div>
+				<div class="zu-main-content-featureRow">
+					<div class="zu-main-content-featureRow-inf">
+						<div class="content-inf">
+							<h1>Study Tools</h1>
+							<p>这里要写点什么</p>
+						</div>
+					</div>
+					<div class="zu-main-content-featureRow-inf">
+						<div class="content-inf">
+							<h1>Fun&Effective</h1>
+							<p>这里要写点什么</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="zu-main-content-story">
+					<h1>The Saylele's Story</h1>
+					<p>这里要写点什么</p>
+				</div>
+				<div class="zu-main-content-role">
+					<div>
+						<h2>Teacher Tools</h2>
+						<p>Teachers use Saylele in the classroom because it works - and students love it.</p> 
+						<a href="#">Learn more </a><em>or</em><a href="#"> Upgrade</a>
+					</div>
+					<div>
+						<h2>For Schools</h2>
+						<p>Get group discounts on Saylele Teacher memberships for your entire school.</p> 
+						<a href="#">Here's how</a>
+					</div>
+					<div>
+						<h2>For Students</h2>
+						<p>We're looking for great engineers who want to make a huge impact on education. </p>
+						<a href="#">See our jobs</a>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!-- 底部导航 -->
+	<div role="footer" class="zu-footer zu-footer-content">
+		<div class="zu-footer-content">
+			<div>
+				<ul>
+					<li><span>Using Saylele</span></li>
+					<li><a href="#"><span>Sign Up</span></a></li>
+					<li><a href="#"><span>Help</span></a></li>
+					<li><a href="#"><span>Students</span></a></li>
+					<li><a href="#"><span>Teachers</span></a></li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li><span>About Saylele</span></li>
+					<li><a href="#"><span>Company</span></a></li>
+					<li><a href="#"><span>Jobs</span></a></li>
+					<li><a href="#"><span>Privacy</span></a></li>
+					<li><a href="#"><span>Terms</span></a></li>
+					<li><a href="#"><span>Contact</span></a></li>
+				</ul>
+			</div>
+			<!-- copyright -->
+			<div class="copyright">
+				<p><span>Study Everywhere!</span><span> © 2015 Saylele Inc.</span><span>Follow</span><a href="#"> @Saylele </a><span>on Twitter.</span></p>
+				
+			</div>
+		</div>
+	</div>
 </body>
 </html>
