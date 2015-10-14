@@ -21,8 +21,8 @@ div[contentEditable], input, textarea, button, a:link {
 del, ins, u, s, a, a:hover {
     text-decoration: none;
 }
-a>span:link,a>span:visited {color:#553f20;}
-a>span:hover,a>span:active {color:#553f20;} 
+a>span:link,a>span:visited {color:#61F10B;}
+a>span:hover,a>span:active {color:#61F10B;} 
 .zu-top{
 	position: fixed;
     left: 0;
@@ -151,6 +151,7 @@ input[type=text], input[type=password]:focus {
     height:100%;
     margin-left:15px;
     border-left:1px solid #044e97;  
+    font: 12.5px/1.35 "lucida grande","lucida sans unicode",arial,sans-serif;
 }
 .label{
 	float:right;
@@ -180,7 +181,7 @@ input[type=text], input[type=password]:focus {
     margin-left:10px;
 }
 .zu-top-nav-link a {
-	margin-left:10px;
+	margin-left:4px;
 	margin-top:8px;
 	margin-bottom: 8px;
 	background: -webkit-linear-gradient(top, #fa7d3c 0%,#f56010 100%);
@@ -198,7 +199,7 @@ input[type=text], input[type=password]:focus {
     text-align: center;
 }
 .zu-top-nav-link-google{
-    width: 95px;
+    width:115px;
     background: -webkit-linear-gradient(top, #fa7d3c 0%,#f56010 100%);
     border-radius: 10px;
 }
