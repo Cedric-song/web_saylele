@@ -182,13 +182,13 @@ input[type=text], input[type=password]:focus {
 }
 .zu-top-nav-link a {
 	margin-left:4px;
-	margin-top:8px;
+	margin-top:10px;
 	margin-bottom: 8px;
-	background: -webkit-linear-gradient(top, #fa7d3c 0%,#f56010 100%);
+	/*background: -webkit-linear-gradient(top, #fa7d3c 0%,#f56010 100%);*/
     float: right;
     height: 34px;
     line-height:34px;
-    width: 80px;
+    width: 72px;
     color: #fff;
     border-radius:10px;
     
@@ -309,15 +309,15 @@ input[type=text], input[type=password]:focus {
     width: 960px;
     border-top:2px solid #0666c5;
     margin: 0 auto;
-    height:140px;
+    height:90px;
     clear: both;
-    text-align:center;
+    /*text-align:center;*/
 }
 ul{
     margin: 0;
     padding: 0;
     list-style: none;
-    margin-top: 16px;
+    margin-top: 12px;
 }    
 ul li {
     display: inline;
@@ -329,6 +329,78 @@ ul li {
 
 }
 .copyright{
-    text-align: center;
-    margin-top: 16px;
+    margin-top: -10px;
+}
+.intro-content{
+    margin-top: 90px;
+    margin-left: 50px;
+    width: 400px;
+    height: 200px;
+}
+.intro-sign{
+    width: 400px;
+    height: 38px;
+}
+/* 通用自定义按钮-默认蓝色 */
+.u-btn{display:inline-block;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;padding:0 12px;height:28px;line-height:28px;border:1px solid #2d88bf;border-radius:5px;font-size:12px;letter-spacing:1px;vertical-align:middle;cursor:pointer;word-wrap:normal;white-space:nowrap;box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);text-shadow:0 -1px rgba(0,0,0,0.2);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#6dbde4),to(#399dd8));background:-webkit-linear-gradient(#6dbde4,#399dd8);background:-moz-linear-gradient(#6dbde4,#399dd8);background:-ms-linear-gradient(#6dbde4,#399dd8);background:linear-gradient(#6dbde4,#399dd8);}
+.u-btn,.u-btn:hover{color:#fff;text-decoration:none;}
+.u-btn:hover,.u-btn:focus{background:#399dd8;}
+.u-btn:active{box-shadow:inset 0 1px 4px rgba(0,0,0,0.2);}
+.u-btn::-moz-focus-inner{padding:0;margin:0;border:0;}
+.u-btn .btnsel{display:inline-block;vertical-align:middle;border-style:solid;border-width:4px 4px 0;border-color:rgba(255,255,255,0.8) transparent transparent;}
+.u-btn:hover .btnsel,.u-btn:focus .btnsel{border-top-color:rgba(255,255,255,1);}
+
+
+/*navigation button yellow color*/
+.u-btn-c2{display:inline-block;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;padding:0 12px;height:28px;line-height:28px;border:1px solid #2d88bf;border-radius:5px;font-size:12px;letter-spacing:1px;vertical-align:middle;cursor:pointer;word-wrap:normal;white-space:nowrap;box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);text-shadow:0 -1px rgba(0,0,0,0.2);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#6dbde4),to(#399dd8));background:-webkit-linear-gradient(#6dbde4,#399dd8);background:-moz-linear-gradient(#6dbde4,#399dd8);background:-ms-linear-gradient(#6dbde4,#399dd8);background:linear-gradient(#6dbde4,#399dd8);}
+.u-btn-c2{border-color:#e1962d;background:-webkit-gradient(linear,0% 0%,0% 100%,from(#fbb149),to(#f8960a));background:-webkit-linear-gradient(#fbb149,#f8960a);background:-moz-linear-gradient(#fbb149,#f8960a);background:-ms-linear-gradient(#fbb149,#f8960a);background:linear-gradient(#fbb149,#f8960a);border-radius: 10px;}
+.u-btn-c2:hover,.u-btn-c2:focus{background:#f8960a;}
+
+.intro-sign a{
+    width:168px;
+}
+.intro-width{
+    width: 20px;
+    display: inline-block;
+    float: left;
+    margin-right: 2px;
+}
+.content-signup{
+    width: 20px;
+
+}
+.intro-content-dt{
+    font-size: 20px;
+    color: #eee;
+}
+.content-width{
+    /*width: 509px;
+    margin-left: 295px;
+    padding-left: 5px*/
+    text-align:center;
+}
+.content-padding{
+    padding:5px;
+}
+#header .login.popout {
+    display: block;
+    margin: -6px 0 0 0;
+    padding: 16px;
+    top: 100%;
+    width: 180px;
+}
+.popout {
+    text-shadow: none;
+    background: #fff;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    border-radius: 3px;
+    display: none; 
+    line-height: 16px;
+    padding: 4px 0;
+    position: absolute;
+    top: 42px;
+    left: -24px;
+    min-width: 120px;
+    height: 160px;
+    margin-left: 20px;
 }
